@@ -30,8 +30,8 @@ const Landing = () => {
             
             <div className="container-fluid">
               <div className="d-flex align-items-center">
-                <div className="site-logo"><img src={process.env.PUBLIC_URL +"/imgs/Logo.png"} alt="WildEye-Logo" height="50" width="50"/></div>
-                <h5>&nbsp;WildEye</h5>
+                <div className="site-logo"><img src={process.env.PUBLIC_URL +"/imgs/Logo.png"} alt="WildGuard-Logo" height="50" width="50"/></div>
+                <h5>&nbsp;WildGuard</h5>
                 <div>
                   <nav className="site-navigation position-relative text-right" role="navigation">
                     <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-xl-block">
@@ -62,8 +62,8 @@ const Landing = () => {
                   <div className="owl-carousel slide-one-item-alt-text">
                     
                     <div className="slide-text">
-                      <h1>WildEye</h1>
-                      <p className="mb-5">WildEye is a system that utilizes the YOLOv8n (You Only Look Once) algorithm for object detection to protect and safeguard wildlife. YOLO is a real-time object detection algorithm that can quickly and accurately detect objects of interest in images or video frames.</p>
+                      <h1>WildGuard</h1>
+                      <p className="mb-5">WildGuard is a system that utilizes the YOLOv8n (You Only Look Once) algorithm for object detection to protect and safeguard wildlife. YOLO is a real-time object detection algorithm that can quickly and accurately detect objects of interest in images or video frames.</p>
                       <p><a href="#demo-section" className="btn btn-outline-light py-3 px-5 smoothscroll">Try Now</a></p>
                     </div>
                     
@@ -88,7 +88,7 @@ const Landing = () => {
                 <div className="col-lg-6 ml-auto"  data-aos="fade-up" data-aos-delay="100">
                               
                   <div className="owl-carousel slide-one-item-alt">
-                    <img src={process.env.PUBLIC_URL +"/imgs/slide1.png"} alt="WildEye" className="img-fluid"/>
+                    <img src={process.env.PUBLIC_URL +"/imgs/slide1.png"} alt="WildGuard" className="img-fluid"/>
                     <img src={process.env.PUBLIC_URL +"/imgs/slide2.png"} alt="YOLO" className="img-fluid"/>
                     <img src={process.env.PUBLIC_URL +"/imgs/slide3.png"} alt="YOLOv8" className="img-fluid"/>
                     <img src={process.env.PUBLIC_URL +"/imgs/slide4.png"}alt="YOLOv8n" className="img-fluid"/>
@@ -111,13 +111,13 @@ const Landing = () => {
               <div className="row">
                 
                 <div className="col-lg-5 mr-auto mb-5">
-                  <img src={process.env.PUBLIC_URL +"/imgs/Identification.png"} alt="WildEye" className="img-fluid"/>
+                  <img src={process.env.PUBLIC_URL +"/imgs/Identification.png"} alt="WildGuard" className="img-fluid"/>
                 </div>
                 
                 <div className="col-lg-5 mr-auto mb-5"  data-aos="fade-up">
                   <div className="mb-5">
-                    <h2 className="section-title">WildEye</h2>
-                    <p className="black-text">WildEye is a wildlife species identification and offence registration web app.<br/>In the WildEye system, images captured by cameras or other devices are passed as input to the YOLO algorithm for object detection and recognition. By feeding the images through the trained YOLO model, WildEye can identify and localize wildlife species present in the images.</p>
+                    <h2 className="section-title">WildGuard</h2>
+                    <p className="black-text">WildGuard is a wildlife species identification and offence registration web app.<br/>In the WildGuard system, images captured by cameras or other devices are passed as input to the YOLO algorithm for object detection and recognition. By feeding the images through the trained YOLO model, WildGuard can identify and localize wildlife species present in the images.</p>
                     <ul className="ul-check list-unstyled success">
                       <li className="black-text">Ease Of Use</li>
                       <li className="black-text">Saves Manual Labour</li>
