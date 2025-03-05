@@ -30,8 +30,23 @@ const Landing = () => {
             
             <div className="container-fluid">
               <div className="d-flex align-items-center">
-                <div className="site-logo"><img src={process.env.PUBLIC_URL +"/imgs/Logo.png"} alt="WildGuard-Logo" height="50" width="50"/></div>
-                <h5>&nbsp;WildGuard</h5>
+                <div className="site-logo"><img src={process.env.PUBLIC_URL +"/imgs/Logo.png"} alt="WildGuard-Logo" height="150" width="150"/></div>
+                <div className="gdsc-logo" style={{ display: "inline-block", marginRight: "20px" }}>
+    <img
+      src={process.env.PUBLIC_URL + "/imgs/gdsc.png"}
+      alt="Gdsc-Logo"
+      height="100"
+      width="100"
+    />
+  </div>
+  <div className="svce-logo" style={{ display: "inline-block" }}>
+    <img
+      src={process.env.PUBLIC_URL + "/imgs/svce.png"}
+      alt="Svce-Logo"
+      height="100"
+      width="300"
+    />
+  </div>
                 <div>
                   <nav className="site-navigation position-relative text-right" role="navigation">
                     <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-xl-block">
@@ -63,23 +78,35 @@ const Landing = () => {
                     
                     <div className="slide-text">
                       <h1>WildGuard</h1>
-                      <p className="mb-5">WildGuard is a system that utilizes the YOLOv8n (You Only Look Once) algorithm for object detection to protect and safeguard wildlife. YOLO is a real-time object detection algorithm that can quickly and accurately detect objects of interest in images or video frames.</p>
+                      <p className="mb-5">WildGuard is an AI-powered system that utilizes the YOLOv8n (You Only Look Once) algorithm for real-time object detection, ensuring swift and precise identification of wildlife. By leveraging cutting-edge technology, we aim to protect and safeguard endangered species, bridging the gap between conservation and innovation. Join us in redefining wildlife protection—one detection at a time!</p>
                       <p><a href="#demo-section" className="btn btn-outline-light py-3 px-5 smoothscroll">Try Now</a></p>
                     </div>
                     
                     <div className="slide-text">
-                      <h1>YOLO?</h1>
-                      <p className="mb-5">YOLO stands for You Only Look Once and these series of models are thus named because of their ability to predict every object present in an image with one forward pass.<br/>The main distinction introduced by the YOLO models was the framing of the task at hand. YOLO reframed the object detection task as a regression problem (predict the bounding box coordinates) instead of classification. </p>
+                      <h1>YOLO: You Only Look Once</h1>
+                      <p className="black-text">
+                      Speed Meets Precision<br />
+                      YOLO revolutionizes object detection by identifying <strong>all objects in a single forward pass</strong>. Unlike traditional models that scan images multiple times, YOLO treats detection as a <strong>regression problem</strong>, instantly predicting <strong>bounding box coordinates</strong> and classifications in real time.<br />
+                      This makes YOLO <strong>lightning-fast, highly efficient, and ideal for real-world applications</strong> like wildlife monitoring, where speed and accuracy are critical.
+                      </p>
                     </div>
 
                     <div className="slide-text">
-                      <h1>YOLOv8?</h1>
-                      <p className="mb-5">YOLOv8 is the latest version of the YOLO algorithm, which outperforms previous versions by introducing various modifications such as spatial attention, feature fusion, and context aggregation modules.<br/>These improvements result in faster and more accurate object detection, making YOLOv8 one of the key object detection algorithms in the field.</p>
+                      <h1>YOLOv8: The Evolution of Object Detection</h1>
+                      <p className="black-text">
+                      Smarter, Faster, More Powerful<br />
+                      YOLOv8 is the latest breakthrough in object detection, pushing the boundaries with <strong>spatial attention, feature fusion, and context aggregation</strong>. These innovations supercharge accuracy and speed, making it a game-changer in real-time applications like wildlife tracking and security surveillance.<br />
+                      With <strong>state-of-the-art performance</strong>, YOLOv8 outshines its predecessors, ensuring unparalleled detection precision in dynamic environments.
+                      </p>
                     </div>
 
                     <div className="slide-text">
-                      <h1>YOLOv8 Nano?</h1>
-                      <p className="mb-5">YOLOv8 Nano is a compact version of YOLO, designed with fewer parameters compared to other YOLOv8 models. Although it exhibits slightly lower accuracy, it is still practical for various applications. Its smaller size enables deployment on portable devices such as mobile phones, laptops, or other low-spec hardware devices.</p>
+                      <h1>YOLOv8 Nano: Compact Yet Mighty</h1>
+                      <p className="black-text">
+                      Lightweight, Yet Powerful<br />
+                      YOLOv8 Nano is an ultra-compact version of YOLO, designed for <strong>low-spec devices</strong> without compromising essential performance. With fewer parameters than its larger counterparts, it remains a reliable solution for mobile phones, laptops, and edge computing devices.<br />
+                      While slightly lower in accuracy, its <strong>efficiency, portability, and adaptability</strong> make it a perfect fit for on-the-go wildlife monitoring and real-time detection in resource-limited environments.
+                      </p>
                     </div>
                   
                   </div>
@@ -117,14 +144,17 @@ const Landing = () => {
                 <div className="col-lg-5 mr-auto mb-5"  data-aos="fade-up">
                   <div className="mb-5">
                     <h2 className="section-title">WildGuard</h2>
-                    <p className="black-text">WildGuard is a wildlife species identification and offence registration web app.<br/>In the WildGuard system, images captured by cameras or other devices are passed as input to the YOLO algorithm for object detection and recognition. By feeding the images through the trained YOLO model, WildGuard can identify and localize wildlife species present in the images.</p>
+                    <p className="black-text">
+                    WildGuard is an AI-powered wildlife monitoring and offence registration system designed to protect endangered species and prevent illegal activities.  
+                    <br />
+                    By leveraging the cutting-edge YOLOv8 algorithm, WildGuard rapidly detects and identifies wildlife in images or live video feeds. This advanced object detection technology enables real-time species recognition and instant offence logging, ensuring faster response and effective conservation efforts.  
+                    </p>
                     <ul className="ul-check list-unstyled success">
-                      <li className="black-text">Ease Of Use</li>
-                      <li className="black-text">Saves Manual Labour</li>
-                      <li className="black-text">Brilliant Accuracy</li>
-                      <li className="black-text">Fully Automatic Animal Spotting System</li>
-                      <li className="black-text">Species Identification</li>
-                      <li className="black-text">Offence Registration</li>
+                      <li className="black-text"><strong>AI-Powered Detection</strong> – Instantly spots and identifies wildlife.</li>
+                      <li className="black-text"><strong>Real-Time Monitoring</strong> – Tracks movements with brilliant accuracy.</li>
+                      <li className="black-text"><strong>Effortless Automation</strong> – No manual intervention needed.</li>
+                      <li className="black-text"><strong>Instant Offence Logging</strong> – Registers violations seamlessly.</li>
+                      <li className="black-text"><strong>Data-Driven Insights</strong> – Enhances wildlife conservation efforts.</li>
                     </ul>  
                   </div>
                 </div>
@@ -147,7 +177,10 @@ const Landing = () => {
                 <div>
                   <span className="custom-icon-wrap"><img src={process.env.PUBLIC_URL +"/icons/ease-of-use.png"} alt="Ease-Of-Use-Icon" height="60px" width="60px"/></span>
                   <h3>Ease Of Use</h3>
-                  <p className="black-text">Simple, elegant and mobile-compatible interface.<br/><br/><br/><br/><br/></p>
+                  <p className="black-text">
+                  Seamless, Smart & Accessible<br />
+                  A sleek, intuitive, and mobile-friendly interface ensures effortless navigation—because protecting wildlife should be as easy as a click.
+                  </p>
                 </div>
               </div>
 
@@ -155,7 +188,10 @@ const Landing = () => {
                 <div>
                   <span className="custom-icon-wrap"><img src={process.env.PUBLIC_URL +"/icons/saves-manual-labour.png"} alt="Saves-Manual-Labour-Icon" height="60px" width="60px"/></span>
                   <h3>Saves Manual Labour</h3>
-                  <p className="black-text">It saves a tremendous amount of time for biology researchers and the human volunteers that help by labeling images.<br/>Thus it dramatically reduces the cost to gather valuable information from wild habitats.</p>
+                  <p className="black-text">
+                  Automating Effort, Accelerating Impact<br />
+                  No more hours of tedious image labeling! WildGuard saves <strong>time, cost, and effort</strong> for researchers and volunteers, making wildlife monitoring faster and more efficient.
+                  </p>
                 </div>
               </div>
 
@@ -163,7 +199,10 @@ const Landing = () => {
                 <div>
                   <span className="custom-icon-wrap"><img src={process.env.PUBLIC_URL +"/icons/accuracy.png"} alt="Accuracy-Icon" height="60px" width="60px"/></span>
                   <h3>Brilliant Accuracy</h3>
-                  <p className="black-text">It identifies animals in the input images and gives results with bounding boxes with an accuracy of 96%.<br/><br/><br/><br/></p>
+                  <p className="black-text">
+                  Precision That Matters<br />
+                  Backed by <strong>cutting-edge AI</strong>, WildGuard detects and tracks animals with <strong>96% accuracy</strong>, ensuring highly reliable insights for conservation efforts.
+                  </p>
                 </div>
               </div>
 
@@ -171,7 +210,10 @@ const Landing = () => {
                 <div>
                   <span className="custom-icon-wrap"><img src={process.env.PUBLIC_URL +"/icons/animal-spotting.png"} alt="Fully-Automatic-Animal-Spotting-System-Icon" height="60px" width="60px"/></span>
                   <h3>Fully Automatic Animal Spotting System</h3>
-                  <p className="black-text">It can automatically identify species of animals in the input images and can easily give truly real-time results.<br/><br/><br/></p>
+                  <p className="black-text">
+                  Real-Time Wildlife Detection<br />
+                  With <strong>lightning-fast AI processing</strong>, our system instantly identifies and tracks species in real-time, delivering actionable data at the speed of nature.
+                  </p>
                 </div>
               </div>
 
@@ -179,7 +221,10 @@ const Landing = () => {
                 <div>
                   <span className="custom-icon-wrap"><img src={process.env.PUBLIC_URL +"/icons/species-identification.png"} alt="Species-Identification-Icon" height="60px" width="60px"/></span>
                   <h3>Species identification</h3>
-                  <p className="black-text">Bounding box species identification of the input image for 11 species that include Butterfly, Elephant, Tiger, Lion, Horse, Panda, Bear, Monkey, Dog, Deer and Human.<br/><br/></p>
+                  <p className="black-text">
+                  Recognizing Nature’s Diversity<br />
+                  From <strong>majestic elephants</strong> to <strong>tiny butterflies</strong>, WildGuard accurately identifies <strong>11 wildlife species</strong>, helping researchers and conservationists make informed decisions.
+                  </p>
                 </div>
               </div>
 
@@ -187,7 +232,10 @@ const Landing = () => {
                 <div>
                   <span className="custom-icon-wrap"><img src={process.env.PUBLIC_URL +"/icons/offence-registration.png"} alt="Offence-Registration-Icon" height="60px" width="60px"/></span>
                   <h3>Offence Registration</h3>
-                  <p className="black-text">Users can register offences towards animals by uploading an image or the geo-location or both.<br/><br/><br/><br/></p>
+                  <p className="black-text">
+                  Report, Protect, Preserve<br />
+                  Empower change! Instantly report wildlife offenses by uploading an image, sharing a geo-location, or both—because every report <strong>makes a difference</strong>.
+                  </p>
                 </div>
               </div>
 
@@ -247,7 +295,7 @@ const Landing = () => {
                 
                 <div className="col-md-4">
                   <h3>About Us</h3>
-                  <p>We are an exceptional team of talented programmers, driven by our unwavering passion for coding and an insatiable curiosity for technology. Our collective knowledge and diverse backgrounds converge to form a powerhouse of creativity and innovation.</p>
+                  <p>We are a dynamic team of passionate programmers from Sri Venkateswara College of Engineering (SVCE), united by our love for coding and an insatiable curiosity for technology. Fueled by innovation and creativity, we transform ideas into reality, pushing the boundaries of AI-driven solutions. As college students, we embrace challenges, experiment fearlessly, and build solutions that make a real-world impact. WildGuard is our vision brought to life—a fusion of cutting-edge technology and our commitment to wildlife protection.</p>
                 </div>
 
                 <div className="col-md-3 ml-auto">
@@ -257,13 +305,13 @@ const Landing = () => {
                     <li><a href="#features-section" className="smoothscroll">Features</a></li>
                     <li><a href="#glance-section" className="smoothscroll">Glance</a></li>
                     <li><a href="#demo-section" className="smoothscroll">Demo</a></li>
-                    <li><a href="https://github.com/shreehari-revankar" className="smoothscroll">Github</a></li>
+                    <li><a href="https://github.com/praveenaso" className="smoothscroll">Github</a></li>
                   </ul>
                 </div>
 
                 <div className="col-md-4">
                   <h3>Project</h3>
-                  <p>This is a project we made as a part of our SEM 6 curriculum.</p>
+                  <p>This is a project we made as a part of our GDSC Hackathon 2025.</p>
                 </div>
               
               </div>
