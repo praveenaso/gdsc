@@ -1,8 +1,8 @@
 ![alt text](/INFO/Logo.png)
-# WildEye
+# WildGuard
 Animal Detection and Classification using YOLO.
 
-You can try the demo [here](https://shreehari-revankar.github.io/WildEye/).
+You can try the demo [here](https://praveenaso.github.io/gdsc/).
 
 ![Demo](/INFO/demoImg.png)
 
@@ -53,7 +53,8 @@ Install Node.js and npm using the link above. Follow instructions on their respe
 
 Clone the repository
 ```bash
-git clone https://github.com/shreehari-revankar/WildEye.git
+git clone https://github.com/praveenaso/gdsc.git
+
 ```
 
 Install all the dependencies
@@ -93,4 +94,4 @@ Enjoy exploring the world of animal detection using YOLO on the COCO dataset!
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[MIT License Link](https://github.com/shreehari-revankar/WildEye/blob/main/LICENSE)
+[MIT License Link](https://github.com/praveenaso/gdsc/blob/main/LICENSE)
