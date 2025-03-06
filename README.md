@@ -2,7 +2,7 @@
 # WildGuard
 Animal Detection and Classification using YOLO.
 
-You can try the demo [here](https://praveenaso.github.io/gdsc/).
+You can try the demo [here](http://localhost:3000/WildGuard).
 
 ![Demo](/INFO/demoImg.png)
 
