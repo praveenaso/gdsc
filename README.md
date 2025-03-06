@@ -73,7 +73,7 @@ npm start
 
 Open a web browser and go to
 ```bash
-http://localhost:3000
+http://localhost:3000/WildGuard
 ```
 
 ## License
