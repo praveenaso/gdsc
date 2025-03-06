@@ -1,16 +1,10 @@
 {
   "files": {
-    "main.css": "/gdsc/static/css/main.c9be5dd4.css",
-    "main.js": "/gdsc/static/js/main.3f9a1853.js",
-    "static/media/react.png": "/gdsc/static/media/react.6c4b397cf28f0a8dfbcb.png",
-    "static/media/tf.png": "/gdsc/static/media/tf.530689d2846acbed681c.png",
-    "static/media/keras.png": "/gdsc/static/media/keras.50b636f01e50d9f2d513.png",
-    "index.html": "/gdsc/index.html",
-    "main.c9be5dd4.css.map": "/gdsc/static/css/main.c9be5dd4.css.map",
-    "main.3f9a1853.js.map": "/gdsc/static/js/main.3f9a1853.js.map"
+    "main.js": "/WildGuard/static/js/main.052fe35c.js",
+    "index.html": "/WildGuard/index.html",
+    "main.052fe35c.js.map": "/WildGuard/static/js/main.052fe35c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9be5dd4.css",
-    "static/js/main.3f9a1853.js"
+    "static/js/main.052fe35c.js"
   ]
 }
