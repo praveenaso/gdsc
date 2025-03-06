@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/WildGuard/static/js/main.052fe35c.js",
+    "index.html": "/WildGuard/index.html",
+    "main.052fe35c.js.map": "/WildGuard/static/js/main.052fe35c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.052fe35c.js"
+  ]
+}
